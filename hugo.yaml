@@ -1,0 +1,252 @@
+baseURL: "https://gk208254.github.io"
+languageCode: "en-us"
+title: "Gaurav Kumar | DevOps & Cloud Engineer"
+theme: hugo-profile
+
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+pagination:
+  pagerSize: 3
+
+params:
+  title: "Gaurav Kumar | DevOps & Cloud Engineer"
+  description: "Portfolio of Gaurav Kumar — Senior Software Engineer specializing in DevOps, Cloud Infrastructure, Kubernetes, and CI/CD with 6+ years of experience across Azure and AWS."
+  favicon: "myfav.png"
+
+  useBootstrapCDN: false
+  animate: true
+
+  theme:
+    # defaultTheme: "dark"
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  # Navbar
+  navbar:
+    showBrandLogo: false
+    align: ms-auto
+    brandName: "Gaurav Kumar"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: false
+      disableContact: false
+
+  # ---------------------------------------------------------------------------
+  # Hero Section
+  # ---------------------------------------------------------------------------
+  hero:
+    enable: true
+    intro: "Hi, I am"
+    title: "Gaurav Kumar."
+    subtitle: "DevOps & Cloud Engineer"
+    content: |-
+      A Senior Software Engineer with **6+ years** of hands-on experience designing and managing scalable infrastructure across **Azure** and **AWS**. I specialize in provisioning environments via **Terraform**, deploying microservices with **Kubernetes & Helm**, and establishing robust **CI/CD pipelines** for applications and enterprise data platforms. Backed by **7 industry certifications** from AWS, Microsoft, and GitHub.
+    image: /images/profile.jpg
+    bottomImage:
+      enable: false
+    roundImage: true
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/resume.pdf"
+      download: true
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/gk208254
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/gaurav-kumar-nitsri
+        - icon: fas fa-envelope
+          url: mailto:gauravk.nitsri@gmail.com
+
+  # ---------------------------------------------------------------------------
+  # About Section
+  # ---------------------------------------------------------------------------
+  about:
+    enable: true
+    title: "About Me"
+    image: /images/profile.jpg
+    content: |-
+      I am a **DevOps & Cloud Engineer** with a solid foundation in cross-platform server administration and automation. Over the past 6+ years, I have architected and provisioned scalable cloud infrastructures ensuring high availability and robust support for diverse applications.
+
+      Currently at **Incedo**, I lead infrastructure initiatives spanning CI/CD pipeline design, Kubernetes cluster management, enterprise data platform deployments (Azure Synapse, Databricks), and cloud cost optimization. Prior to this, I honed my multi-cloud and server administration skills at **Tata Consultancy Services** and **HCL Technologies**.
+
+    skills:
+      enable: true
+      title: "Core Competencies & Technologies:"
+      items:
+        - "**Cloud Platforms & Data:** Microsoft Azure, AWS"
+        - "**Infrastructure as Code (IaC):** Terraform, ARM Templates"
+        - "**CI/CD & Version Control:** Azure DevOps, GitHub Actions, Git/GitHub"
+        - "**Containers & Orchestration:** Kubernetes, Docker, Helm"
+        - "**OS & Administration:** Linux (Ubuntu, CentOS, RHEL), Windows Server, VMware"
+        - "**Configuration Management & Scripting:** Bash, PowerShell"
+        - "**Identity & Security:** Active Directory, Microsoft Entra ID (Azure AD)"
+
+  # ---------------------------------------------------------------------------
+  # Experience Section
+  # ---------------------------------------------------------------------------
+  experience:
+    enable: true
+    items:
+      # -- Incedo --
+      - company: "Incedo"
+        companyUrl: ""
+        jobs:
+          - name: "Senior Software Engineer"
+            date: "Oct 2024 – Present"
+            info:
+              content: "Gurugram, Haryana"
+            content: |
+              - Implemented end-to-end CI/CD pipelines utilizing **GitHub Actions** and **Azure DevOps**, enabling smooth deployment across multiple environments.
+              - Architected and provisioned scalable Azure cloud infrastructure using **Terraform**, ensuring high availability and robust support for diverse application teams.
+              - Developed and maintained specialized deployment pipelines for enterprise data platforms, streamlining operations for **Azure Synapse Analytics** and **Databricks**.
+              - Orchestrated and deployed microservices-architected applications on **Kubernetes** utilizing **Helm** charts.
+              - Engineered robust Kubernetes traffic routing — deploying and administering both **NGINX** and **Traefik** ingress controllers — and spearheaded migration to the **Kubernetes Gateway API**.
+              - Administered and troubleshot diverse OS environments, providing comprehensive support for Windows Server and Linux distributions (Ubuntu, CentOS, RHEL).
+              - Automated routine administrative and BAU workflows by authoring **Bash** and **PowerShell** scripts, reducing manual operational overhead.
+              - Drove **cloud cost optimization** initiatives by right-sizing Azure resources and services, balancing strict performance requirements with business efficiency goals.
+              - Managed **Azure Firewall** rules and network security configurations to adhere to strict internal and client-specific compliance requirements.
+              - Executed centralized server patching and compliance enforcement across Windows and Linux environments utilizing **Azure Update Manager**.
+
+      # -- TCS --
+      - company: "Tata Consultancy Services"
+        companyUrl: ""
+        jobs:
+          - name: "Cloud Engineer"
+            date: "Apr 2022 – Oct 2024"
+            info:
+              content: "Noida, UP"
+            content: |
+              - Deployed **multi-cloud infrastructure** across Azure and AWS using Terraform.
+              - Managed **Kubernetes** clusters for containerized applications.
+              - Administered **Windows** and **Linux** server environments.
+              - Handled **GitHub** repository administration, and CI/CD with GitHub Actions.
+
+      # -- HCL --
+      - company: "HCL Technologies"
+        companyUrl: ""
+        jobs:
+          - name: "Analyst"
+            date: "Feb 2020 – Apr 2022"
+            info:
+              content: "Noida, UP"
+            content: |
+              - Configured and supported **Azure** cloud infrastructure, managing role-based access controls and ensuring system reliability.
+              - Deployed and maintained highly available virtualized infrastructure using **VMware vSphere**, optimizing resource allocation and VM lifecycles.
+              - Administered and secured **Linux** and **Windows Server** environments, handling user identities via **Active Directory** and maintaining overall server health.
+
+  # ---------------------------------------------------------------------------
+  # Achievements / Certifications Section
+  # ---------------------------------------------------------------------------
+  achievements:
+    enable: true
+    title: "Certifications"
+    items:
+      - title: "AWS Certified Solutions Architect – Associate (SAA-C03)"
+        content: "Valid Jul 2023 – Jul 2026"
+        url: "https://www.credly.com/badges/a408cdf4-9632-45cd-8220-30d7a9022637/public_url"
+      - title: "AWS Certified Developer – Associate (DVA-C02)"
+        content: "Valid Aug 2024 – Aug 2027"
+        url: "https://www.credly.com/badges/9efb4d60-2897-4963-b70b-9622cbb52cd4/public_url"
+      - title: "AWS Certified SysOps Administrator – Associate (SOA-C02)"
+        content: "Valid Mar 2024 – Mar 2027"
+        url: "https://www.credly.com/badges/520a5575-2020-4791-84f4-0b681f4ebc50"
+      - title: "Microsoft Certified: Azure Administrator Associate (AZ-104)"
+        content: "Valid Jan 2022 – Jan 2027"
+        url: "https://learn.microsoft.com/en-us/users/gauravkumar-4206/credentials/c25c44cbd0e48ea8"
+      - title: "Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)"
+        content: "Earned Apr 2023 (Never expires)"
+        url: "https://www.credly.com/badges/e1311267-d3a0-436f-930a-20d18d6a1d83/public_url"
+      - title: "GitHub Actions"
+        content: "Valid Jun 2024 – Jun 2027"
+        url: "https://www.credly.com/badges/efd9422f-e052-448e-af8a-1d8863df8006/public_url"
+      - title: "GitHub Foundations"
+        content: "Valid Jun 2024 – Jun 2027"
+        url: "https://www.credly.com/badges/b43523df-01c5-4c54-8e6b-8789047f6094/public_url"
+
+  # ---------------------------------------------------------------------------
+  # Projects (disabled – not in resume)
+  # ---------------------------------------------------------------------------
+  projects:
+    enable: false
+
+  # ---------------------------------------------------------------------------
+  # Contact Section
+  # ---------------------------------------------------------------------------
+  contact:
+    enable: true
+    content: "Whether you have a question, an opportunity, or just want to say hello — my inbox is always open. I'll try my best to get back to you!"
+    btnName: "Email Me"
+    btnLink: "mailto:gauravk.nitsri@gmail.com"
+
+  # ---------------------------------------------------------------------------
+  # Footer
+  # ---------------------------------------------------------------------------
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: "Recent Posts"
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/gk208254
+      linkedin: https://www.linkedin.com/in/gaurav-kumar-nitsri
+
+  # ---------------------------------------------------------------------------
+  # Misc
+  # ---------------------------------------------------------------------------
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"

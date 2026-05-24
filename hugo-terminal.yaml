@@ -1,0 +1,208 @@
+baseURL: "https://gk208254.github.io/terminal"
+theme: "hugo-theme-terminalcv"
+title: "Gaurav Kumar - Terminal"
+publishDir: "public/terminal"
+layoutDir: "layouts-terminal"
+
+params:
+  version: "1.0.0"
+  description: "DevOps & Cloud Engineer Portfolio"
+  blog: 
+    enabled: false
+  
+  prompt:
+    core:
+      text: "gaurav@devops"
+      color: "green"
+      before: "["
+      beforeColor: "white"
+      after: '\]'
+      afterColor: "white"
+    separator:
+      text: ":"
+    path:
+      before: ""
+      text: "~"
+      color: "blue"
+      after: ''
+    extra:
+      text: "$ "
+      color: "white"
+
+  exitLocation: "/"
+  exitMessage: "[Terminating session. Returning to standard GUI...]"
+  Source: true
+
+  greetingbannercolor: green
+  greetingbanner: |
+    +---------------------------------------------------------+
+    |                                                         |
+    |   G A U R A V   K U M A R   -   T E R M I N A L         |
+    |                                                         |
+    +---------------------------------------------------------+
+
+  greeting: |
+    Welcome to Gaurav's DevOps Console.
+    Type 'help' for a list of available commands.
+    Type 'exit' to return to the standard web interface.
+
+  bootsequence: |
+    User connection established.
+    Provisioning cloud resources...
+    [OK] Virtual Network allocated.
+    [OK] Kubernetes Cluster running.
+    [OK] Ingress Controllers bound to 80/443.
+    [OK] Security policies enforced.
+    
+    CloudOS Kernel Version 1.4.2 ready.
+    Accepting user input...
+
+  whois:
+    details:
+      leftColor: "green"
+      rightColor: "white"
+      name: "Gaurav Kumar"
+      profession: "DevOps & Cloud Engineer"
+      location: "Gurugram, Haryana"
+      email: "gauravk.nitsri@gmail.com"
+      homelink: "https://gk208254.github.io"
+      description: |
+        Senior Software Engineer at Incedo | DevOps & Cloud Engineer with 6+ years of hands-on experience designing and managing
+        scalable infrastructure in Azure and AWS. Proficient in provisioning environments via Terraform, deploying microservices
+        with Kubernetes and Helm, and establishing robust CI/CD pipelines for applications and data platforms using Azure DevOps 
+        and GitHub Actions. Solid foundation in cross-platform server administration (Linux/Windows) and automation using Bash 
+        and PowerShell.
+
+  social:
+    details:
+      - name: "github"
+        url: "https://github.com/gk208254"
+      - name: "linkedin"
+        url: "https://www.linkedin.com/in/gaurav-kumar-nitsri"
+        
+  work:
+    details:
+      - jobTitle: "[Senior Software Engineer]"
+        color: green
+        company: "Incedo"
+        location: "Gurugram, Haryana"
+        date: "Oct 2024 - Present"
+        description: |
+          •	Implemented end-to-end CI/CD pipelines utilizing GitHub Actions and Azure DevOps, enabling smooth deployment across multiple environments.
+          •	Architected and provisioned scalable Azure cloud infrastructure using Terraform, ensuring high availability and robust support for diverse application teams.
+          •	Developed and maintained specialized deployment pipelines for enterprise data platforms, streamlining operations for Azure Synapse Analytics and Databricks.
+          •	Orchestrated and deployed microservices-architected applications on Kubernetes utilizing Helm charts.
+          •	Engineered robust Kubernetes traffic routing, demonstrating deep expertise in deploying and administering both NGINX and Traefik ingress controllers.
+          •	Spearheaded the modernization of cluster traffic management by migrating from legacy NGINX Ingress to Traefik, fully adopting the Kubernetes Gateway API.
+          •	Administered and troubleshot diverse operating system environments, providing comprehensive support for Windows Server and Linux distributions (Ubuntu, CentOS, RHEL).
+          •	Automated routine administrative and BAU workflows by authoring Bash and PowerShell scripts, reducing manual operational overhead.
+          •	Drove cloud cost optimization initiatives by right-sizing Azure resources and services, balancing strict performance requirements with business efficiency goals.
+          •	Managed Azure Firewall rules and network security configurations to adhere to strict internal and client-specific compliance requirements.
+          •	Executed centralized server patching and compliance enforcement across Windows and Linux environments utilizing Azure Update Manager.
+      - jobTitle: "[Cloud Engineer]"
+        color: blue
+        company: "Tata Consultancy Services"
+        location: "Noida, UP"
+        date: "Apr 2022 - Oct 2024"
+        description: |
+          •	Deployed multi-cloud infrastructure across Azure and AWS using Terraform.
+          •	Managed Kubernetes clusters for containerized applications.
+          •	Administered Windows and Linux server environments.
+          •	Handled GitHub repository administration, and CI/CD with GitHub Actions.
+
+      - jobTitle: "[Analyst]"
+        color: yellow
+        company: "HCL Technologies"
+        location: "Noida, UP"
+        date: "Feb 2020 - Apr 2022"
+        description: |
+          •	Configured and supported Azure cloud infrastructure, managing role-based access controls and ensuring system reliability.
+          •	Deployed and maintained highly available virtualized infrastructure using VMware vSphere, optimizing resource allocation and VM lifecycles.
+          •	Administered and secured Linux and Windows Server environments, handling user identities via Active Directory and maintaining overall server health.
+
+  skills:
+    details:
+      - name: "Azure & AWS"
+        percentage: 95
+        color: blue
+      - name: "Terraform & ARM Templates"
+        percentage: 90
+        color: purple
+      - name: "Kubernetes, Docker, Helm"
+        percentage: 90
+        color: green
+      - name: "CI/CD (GitHub Actions, Azure DevOps)"
+        percentage: 85
+        color: yellow
+      - name: "Linux, Windows Server, VMware"
+        percentage: 85
+        color: cyan
+      - name: "Bash & PowerShell Scripting"
+        percentage: 80
+        color: magenta
+      - name: "Active Directory, Entra ID (Azure AD)"
+        percentage: 80
+        color: red
+
+  certifications:
+    details:
+      - certName: "AWS Certified Solutions Architect - Associate"
+        color: blue
+        company: "Amazon Web Services"
+        date: "Jul 2023 - Jul 2026"
+        badge: "https://www.credly.com/badges/a408cdf4-9632-45cd-8220-30d7a9022637"
+      - certName: "AWS Certified Developer - Associate"
+        color: yellow
+        company: "Amazon Web Services"
+        date: "Aug 2024 - Aug 2027"
+        badge: "https://www.credly.com/badges/9efb4d60-2897-4963-b70b-9622cbb52cd4"
+      - certName: "AWS Certified SysOps Administrator - Associate"
+        color: cyan
+        company: "Amazon Web Services"
+        date: "Mar 2024 - Mar 2027"
+        badge: "https://www.credly.com/badges/520a5575-2020-4791-84f4-0b681f4ebc50"
+      - certName: "Azure Administrator Associate (AZ-104)"
+        color: blue
+        company: "Microsoft"
+        date: "Jan 2022 - Jan 2027"
+        badge: "https://learn.microsoft.com/en-us/users/gauravkumar-4206/credentials/c25c44cbd0e48ea8"
+      - certName: "Security, Compliance, and Identity Fundamentals (SC-900)"
+        color: red
+        company: "Microsoft"
+        date: "Apr 2023 (Never Expires)"
+        badge: "https://www.credly.com/badges/e1311267-d3a0-436f-930a-20d18d6a1d83"
+      - certName: "GitHub Actions"
+        color: yellow
+        company: "GitHub"
+        date: "Jun 2024 - Jun 2027"
+        badge: "https://www.credly.com/badges/efd9422f-e052-448e-af8a-1d8863df8006"
+      - certName: "GitHub Foundations"
+        color: green
+        company: "GitHub"
+        date: "Jun 2024 - Jun 2027"
+        badge: "https://www.credly.com/badges/b43523df-01c5-4c54-8e6b-8789047f6094"
+
+  misc:
+    commandName: "gui"
+    title: "Entering GUI Mode..."
+    titleColor: green
+    content: |
+      Returning to standard web view...
+    contentColor: white
+
+  customHeadCode: |
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Enter') {
+             var term = $.terminal.active();
+             if (term) {
+               var cmd = term.get_command().trim();
+               if (cmd === 'gui') {
+                 term.set_command('exit');
+               }
+             }
+          }
+        }, true);
+      });
+    </script>
