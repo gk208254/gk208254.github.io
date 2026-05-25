@@ -77,7 +77,7 @@ params:
     button:
       enable: true
       name: "Download Resume"
-      url: "/resume.pdf"
+      url: "/Gaurav_kumar_Resume.pdf"
       download: true
       newPage: true
     socialLinks:
