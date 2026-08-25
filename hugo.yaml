@@ -121,7 +121,7 @@ params:
     items:
       # -- Incedo --
       - company: "Incedo"
-        companyUrl: ""
+        companyUrl: "https://www.incedoinc.com/"
         jobs:
           - name: "Senior Software Engineer"
             date: "Oct 2024 – Present"
@@ -141,7 +141,7 @@ params:
 
       # -- TCS --
       - company: "Tata Consultancy Services"
-        companyUrl: ""
+        companyUrl: "https://www.tcs.com/"
         jobs:
           - name: "Cloud Engineer"
             date: "Apr 2022 – Oct 2024"
@@ -155,7 +155,7 @@ params:
 
       # -- HCL --
       - company: "HCL Technologies"
-        companyUrl: ""
+        companyUrl: "https://www.hcltech.com/"
         jobs:
           - name: "Analyst"
             date: "Feb 2020 – Apr 2022"
